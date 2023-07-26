@@ -1,0 +1,129 @@
+<!-- 
+    Create this webpage with the following conditions,
+
+●	Just pick your colors, you don’t need to follow any of these colors
+●	In stead of Mashrafe & Riyad, put images of Sakib & Mushfiq
+●	30 pixels of gap between the divs of Sakib & Mushfiq (mentioned in the screenshot)
+
+    ●	The body should have 50 pixels of margin in every side
+●	I had solved the problem of setting the images & the names of the players in such a manner which was not discussed in the class & commented the code. You may just uncomment the code & solve it. BUT you will get a bonus mark if you solve in such a manner which was discussed in the class. In this way, you may face an obstacle but you can find a way if you read the NOTE
+
+
+NOTE
+margin won't work for inline elements, but you may override an inline element to block by writing the following line in CSS
+
+display: block
+ -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>
+        Assignment 4
+    </title>
+
+        <style>
+            /* css style */
+            
+            main
+            {
+                display: flex;
+            }
+
+            .musfiq
+            {
+                font-size: 30px;
+                text-align: center;
+                color: white;
+
+            }
+
+            .sakib 
+            {
+                font-size: 30px;
+                text-align: center;
+                color: yellow;
+
+            }
+
+            .player_1
+            {
+                background-color: blueviolet;
+                margin: 20px;
+                padding: 10px;
+                border-radius: 10px;
+                border: 10px;
+            }
+
+            .player_2
+            {
+                background-color: darkblue;
+                margin: 20px;
+                padding: 10px;
+                border-radius: 10px;
+                border: 10px;
+            }
+
+            .sakib_img
+            {
+                width: 300px;
+                height: 150px;
+                display: block;
+                margin: 0px auto;
+                
+            }
+
+            .musfiqur_rahim
+            {
+                width: 300px;
+                height: 150px;
+                display: block;
+                margin: 0px auto;
+                
+            }
+
+            p
+            {
+                font-size: 20px;
+                text-align:justify;
+                color: white;
+            }
+
+
+        </style>
+
+
+</head>
+
+<body>
+
+    <main>
+        <!--  -->
+        <div class="player_1">
+            <h1 class="musfiq ">
+                Musfiqur rahim
+            </h1>
+            <img class="musfiqur_rahim " src="./images/musfiqur rahim.jpeg" alt="Musfiqur rahim">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eaque ipsum iure ducimus id ullam rem provident blanditiis iusto dolorem! Debitis doloremque laborum repellat dolorem qui, consectetur cum culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, atque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit dolorum perspiciatis sint unde a debitis, dolor neque in! Culpa quae in dolore nulla, totam quo laudantium ad aut quia inventore beatae eos voluptate laborum possimus dolorum neque vitae nostrum. Magni mollitia tempore unde velit atque officia tempora possimus eligendi est!
+            </p>
+        </div>
+
+
+        <div class="player_2">
+            <h1 class="sakib">
+                Shakib Al Hasan
+            </h1>
+            <img class="sakib_img" src="./images/sakib.jpeg" alt="Shakib-Al-Hasan">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eaque ipsum iure ducimus id ullam rem provident blanditiis iusto dolorem! Debitis doloremque laborum repellat dolorem qui, consectetur cum culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, atque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit dolorum perspiciatis sint unde a debitis, dolor neque in! Culpa quae in dolore nulla, totam quo laudantium ad aut quia inventore beatae eos voluptate laborum possimus dolorum neque vitae nostrum. Magni mollitia tempore unde velit atque officia tempora possimus eligendi est!
+            </p>
+        </div>
+
+    </main>
+    
+</body>
+
+</html>
